@@ -1,10 +1,9 @@
 body{ 
-    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #3d3935;
+    
 }
 .titulo{
     color:white;
@@ -23,4 +22,11 @@ body{
 .login-btn:hover{
     border: solid black 1px;
     background:  linear-gradient(to left, #7a56f4, #14e2cd);
+}
+#endPage{
+    width: 60%;
+}
+#volver{
+    display: flex;
+    align-self: flex-start;
 }

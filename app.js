@@ -92,4 +92,8 @@ const addLogin =()=>{
         
 })
 }
-addLogin()
+
+
+const addEndPage=()=>{
+  
+}
