@@ -93,9 +93,8 @@ const addLogin =()=>{
         
 })
 }
-const divEndPage=document.getElementById("end-page");
+
+
 const addEndPage=()=>{
-  divEndPage.innerHTML=`
   
-  `
 }
