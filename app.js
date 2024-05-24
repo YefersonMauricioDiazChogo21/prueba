@@ -68,6 +68,7 @@ const addLogin =()=>{
 
     </form>
     `
+
     const saveData=document.querySelector("#guardar")
     saveData.addEventListener('click',(e)=>{
         e.preventDefault();
@@ -92,4 +93,9 @@ const addLogin =()=>{
         
 })
 }
-addLogin()
+const divEndPage=document.getElementById("end-page");
+const addEndPage=()=>{
+  divEndPage.innerHTML=`
+  
+  `
+}
