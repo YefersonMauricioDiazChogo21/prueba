@@ -1,7 +1,7 @@
 body{ 
     display: flex;
     padding-top: 10%;
-    
+    background-color: #3d3935;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -24,4 +24,7 @@ body{
 .login-btn:hover{
     border: solid black 1px;
     background:  linear-gradient(to left, #7a56f4, #14e2cd);
+}
+#endPage img{
+  width: 20px;
 }
